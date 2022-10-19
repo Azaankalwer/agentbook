@@ -1,0 +1,68 @@
+
+.articlecard_body{
+    width: 380px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.articlecard_time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.articlecard_time_box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    color: #62616F;
+}
+
+.articlecard_details_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articleCardarticle_details{
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.articlecard_title{
+color: #232A43;
+font-size: 21px;
+font-family: 'Lato', sans-serif; 
+font-weight: 700;
+padding: 5px 0px;
+margin-bottom: 10px;
+}
+
+
+.articles_tag_box{
+    display: flex;
+    align-items: center;
+}
+
+.articles_tag_icon{
+    font-size: 19px;
+}
+
+.article_name{
+    font-family: 'Lato', sans-serif; 
+    color: #73757E;
+}
+.articles_tag_icon{
+    color: #73757E;
+}
+.articles_tag_text{
+    font-family: 'Poppins', sans-serif;
+    color: #73757E;
+}

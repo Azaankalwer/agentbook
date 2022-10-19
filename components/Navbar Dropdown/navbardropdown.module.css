@@ -1,0 +1,68 @@
+.dropdown_box {
+    position: absolute;
+    width: 190px;
+    background-color: #ffffff;
+    top: 10.5%;
+    right: 3%;
+    border-radius: 4px;
+}
+
+.linkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+}
+
+.login_linkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.link_icon {
+    font-size: 17px;
+    color: black;
+    margin-left: 15px;
+}
+
+.link_text {
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.login_linkbox .link_text {
+    color: #F2765D;
+}
+
+.login_linkbox .link_icon {
+    color: #F2765D;
+}
+
+.linkbox:hover .link_text,
+.linkbox:hover .link_icon {
+    color: #4B6DF3;
+}
+
+
+
+.login_linkbox:hover {
+    background-color: #F2765D;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.login_linkbox:hover .link_text {
+    color: white;
+}
+
+.login_linkbox:hover .link_icon {
+    color: white;
+}

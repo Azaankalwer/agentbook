@@ -1,0 +1,88 @@
+.single_agent_box {
+    margin-top: 30px;
+    width: 570px;
+}
+
+.single_agent_card {
+    display: flex;
+    gap: 15px;
+
+}
+
+.single_agent_img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.single_agent_card_content {
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.single_agent_titlebox {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.single_agent_title_txt {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #232A43;
+    font-weight: 600;
+}
+
+.single_agent_rating_box {
+    display: flex;
+    align-items: center;
+}
+
+.single_agent_stars_box {
+    color: #FFC107;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.rating_text {
+    color: #73757E;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
+.single_agent_desc span{
+  color: #232A43;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+
+.single_agent_btn_box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.single_card_btn {
+    padding: 8px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #4b6df3;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.agent_more_link{
+    color: #232A43;
+}
