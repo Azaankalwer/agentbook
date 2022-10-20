@@ -2,7 +2,7 @@ import styles from "./articlecard.module.css"
 import { BsFillCalendarDateFill } from "react-icons/bs"
 import { FaBookOpen } from "react-icons/fa"
 import { AiFillTag } from "react-icons/ai"
-import { ArticleInfo } from "../../pages/data"
+import { AgentProfile, ArticleInfo } from "../../pages/data"
 
 
 
@@ -31,12 +31,12 @@ export default function ArticleCard() {
                 <div className={styles.articlecard_details_box}>
                     <div className={styles.articleCardarticle_details}>
                         <img className={styles.article_img} src={article.profile} alt="" />
-                        <span className={styles.article_name}>Dan Hollie</span>
+                        <span className={styles.article_name}>{article.name}</span>
                     </div>
 
                     <div className={styles.articles_tag_box}>
                         <AiFillTag className={styles.articles_tag_icon} />
-                        <span className={styles.articles_tag_text}>SELLING</span>
+                        <span className={styles.articles_tag_text}>{article.tag}</span>
                     </div>
 
                 </div>

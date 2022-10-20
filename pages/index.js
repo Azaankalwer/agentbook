@@ -11,6 +11,7 @@ import ArticleCard from '../common/Article Card/ArticleCard'
 import Footer from '../common/Footer/Footer'
 
 
+
 export default function Home() {
 
   const [showmenu, setShowMenu] = useState(false);
@@ -108,14 +109,14 @@ export default function Home() {
 
       <div className={styles.choose_agent_section}>
         <div className={styles.choose_agent_box}>
-          <img src="../images/agenttree.png" alt="" />
+          <img className={styles.choose_agent_img} src="../images/agenttree.png" alt="" />
 
 
           <div className={styles.choose_agent_content}>
             <div className={styles.choose_agent_content_box}>
               <div className={styles.choose_agent_title_box}>
                 <span className={styles.choose_agent_heading}>CHOOSING YOUR AGENT</span>
-                <h1 className={styles.choose_agent_title}>How to choose your agent</h1>
+                <h1 className={styles.active_agent_title}>How to choose your agent</h1>
               </div>
 
               <div className={styles.choose_agent_box_desc}>
@@ -192,14 +193,14 @@ export default function Home() {
 
       <div className={styles.choose_agent_section}>
         <div className={styles.realtime_agent_box}>
-          <img src="../images/agent-left.jpg" alt="" />
+          <img className={styles.choose_agent_img} src="../images/agent-left.jpg" alt="" />
 
 
           <div className={styles.choose_agent_content}>
             <div className={styles.choose_agent_content_box}>
               <div className={styles.choose_agent_title_box}>
                 <span className={styles.choose_agent_heading}>CHAT WITH AN AGENT</span>
-                <h1 className={styles.choose_agent_title}>Real Time Conversation</h1>
+                <h1 className={styles.active_agent_title}>Real Time Conversation</h1>
               </div>
 
               <div className={styles.choose_agent_box_desc}>
@@ -238,7 +239,7 @@ export default function Home() {
 
       <div className={styles.articlesby_section}>
         <div className={styles.articlesby_box}>
-          <h1>Latest Articles By Agents</h1>
+          <h1 className={styles.articlesby_title}>Latest Articles By Agents</h1>
 
           <div className={styles.article_box}>
             <ArticleCard />

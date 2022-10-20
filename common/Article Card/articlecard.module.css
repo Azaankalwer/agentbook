@@ -66,3 +66,30 @@ margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     color: #73757E;
 }
+
+
+
+/* =========  Responsive Card ================== */
+
+
+
+@media (max-width:440px) { 
+    .articlecard_body{
+        width: 300px;
+    }
+
+    .articlecard_img{
+        width: 300px;
+    }
+  }
+
+  @media (max-width:310px) { 
+    .articlecard_body{
+        width: 270px;
+        position: relative;
+        margin-top: 10px;
+    }
+    .articlecard_img{
+        width: 270px;
+    }
+  }

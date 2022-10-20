@@ -5,6 +5,7 @@ import Image from "next/image"
 export default function SearchDropdown(){
     return(
         <>
+           
         <div className={styles.searchdropdown}> 
              <div className={styles.searchdropdown_title}>
                  <FaMapMarkerAlt className={styles.searchdropdown_icon}/>
@@ -19,11 +20,6 @@ export default function SearchDropdown(){
                         <Image src="/images/Ellipse104.png" width={28} height={28} />
                         <span className={styles.search_box_name}>Tim Hortons</span>
                     </div>
-
-
-                   
-
-                   
                 </div>
              </div>
 
